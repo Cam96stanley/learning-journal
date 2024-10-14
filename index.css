@@ -65,7 +65,7 @@ nav ul {
 }
 
 .article-body {
-  line-height: 1.25;
+  line-height: 1.5;
   margin: 0 2.85em 1.563em 1.25em;
 }
 
@@ -99,6 +99,7 @@ nav ul {
 .blog-body {
   margin-top: 0;
   max-width: 60ch;
+  line-height: 1.5;
 }
 
 .blog-img {
