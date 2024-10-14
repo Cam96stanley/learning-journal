@@ -125,7 +125,6 @@ nav ul {
   .article-body {
     max-width: 60ch;
     margin-bottom: 3.75em;
-    max-width: 60ch;
   }
 }
 
@@ -142,18 +141,6 @@ nav ul {
 
   .blog-section {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .blog-one {
-    grid-column: 1fr;
-  }
-
-  .blog-two {
-    grid-column: 1fr;
-  }
-
-  .blog-three {
-    grid-column: 1fr;
   }
 }
 
