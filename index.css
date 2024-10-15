@@ -120,6 +120,32 @@ footer p {
   line-height: 0.5;
 }
 
+/* About Hero Section */
+
+.about-hero-section {
+  margin: 1.625em 1.25em 0;
+}
+
+.about-hero-section h1 {
+  font-size: 2.188rem;
+}
+
+.about-me-img {
+  width: 11.25em;
+  height: 11.25em;
+  border-radius: 50%;
+}
+
+/* Main About Section */
+
+.main-section {
+  margin: 3.125em 1.25em 3.313em;
+}
+
+.para-title {
+  font-weight: 900;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -130,6 +156,8 @@ footer p {
 
   .blog-section {
     grid-template-columns: 1fr 1fr;
+    margin-left: 3.313em;
+    margin-right: 3.313em;
   }
 
   .article-title {
@@ -157,6 +185,34 @@ footer p {
   .blog-section {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .about-hero-section {
+    display: flex;
+    align-items: center;
+    margin-right: 3.313em;
+    margin-left: 3.313em;
+  }
+
+  .about-me-img {
+    margin-right: 2.063em;
+  }
+
+  .about-hero-section h1 {
+    margin-bottom: 0.286em;
+  }
+
+  .about-hero-section h1 {
+    max-width: 30ch;
+  }
+
+  .about-hero-section p {
+    max-width: 70ch;
+  }
+
+  .main-section {
+    margin-right: 3.313em;
+    margin-left: 3.313em;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -168,5 +224,13 @@ footer p {
     margin-bottom: 3.75em;
     margin-right: 40em;
     max-width: 60ch;
+  }
+
+  .about-hero-section h1 {
+    max-width: 40ch;
+  }
+
+  .about-hero-section p {
+    max-width: 90ch;
   }
 }
