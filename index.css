@@ -71,6 +71,11 @@ nav ul {
 
 /* Article Section */
 
+.recent-posts-p {
+  font-weight: 900;
+  text-align: center;
+}
+
 .blog-section {
   margin: 1em;
   display: grid;
@@ -210,8 +215,12 @@ footer p {
   }
 
   .main-section {
-    margin-right: 3.313em;
-    margin-left: 3.313em;
+    margin-right: 7.563em;
+    margin-left: 7.563em;
+  }
+
+  .recent-posts-p {
+    font-size: 1.5rem;
   }
 }
 
